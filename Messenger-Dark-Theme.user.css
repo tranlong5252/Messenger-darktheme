@@ -12,7 +12,7 @@
 @-moz-document domain("messenger.com") {
 :root {
         --normal-dark: #000;
-		--light-dark: #121214;
+	--light-dark: #121214;
         --dark-gray: #1d1d1f;
         --light-gray: #3a3a3a;
         --lighter-gray: #a0a0a2;
@@ -27,7 +27,7 @@
     fill: var(--light-dark);
 }
 /* Message input bar + Message frame*/
-._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou {
+._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou, .chatAttachmentShelf {
     background-color: var(--light-gray) !important;
 }
 
