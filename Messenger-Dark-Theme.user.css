@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.1
+@version      1.1.2
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -18,10 +18,9 @@
         --lighter-gray: #a0a0a2;
     }	
 /* Main Background */
-	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o {
+	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._29hk, ._225c.clearfix, ._4jgp ._4jgu {
 	background-color: var(--normal-dark);
-}
-	
+	}
 /* Incoming message box */
  ._4sp8 polygon {
     fill: var(--light-dark);
@@ -86,7 +85,8 @@
 ._3cng,
 .uiInputLabelLabel,
 ._44jz,
-._8slc {
+._8slc,
+._5rh4 {
     color: #e0e0e2 !important;
 }
 ._5jn1, ._3z53 {
@@ -144,7 +144,7 @@
 ._2y8_,
 ._5iwn ._7tpc,
 ._1uwz, 
-._2f5n, ._44kr._3h3c._5l37{
+._2f5n, ._44kr._3h3c._5l37, ._4p-s{
     background-color: var(--dark-gray) !important;
 }
 
