@@ -4,7 +4,7 @@
     - For [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
     - For [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 2. Click [here](https://raw.githubusercontent.com/tranlong5252/Messenger-darktheme/master/Messenger-Dark-Theme.user.css) to install the theme using Stylus.
-3. Click <kbd>Install style</kbd> and go to https://www.messenger.com or https://facebook.com to view the result️️
+3. Click <kbd>Install style</kbd> and go to https://www.messenger.com to view the result️️
 
 #### Alternative manual installation
 1. Get the [Stylus](https://github.com/openstyles/stylus) plugin:
