@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.0
+@version      1.1.1
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -10,59 +10,44 @@
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com") {
-._4sp8,
-._5irm._7mkm,
-._4gd0,
-._3egs,
-._52mr._1byr, ._7oal {
-    background-color: #000;
+:root {
+        --normal-dark: #000;
+		--light-dark: #121214;
+        --dark-gray: #1d1d1f;
+        --light-gray: #3a3a3a;
+        --lighter-gray: #a0a0a2;
+    }	
+/* Main Background */
+	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o {
+	background-color: var(--normal-dark);
+}
+	
+/* Incoming message box */
+ ._4sp8 polygon {
+    fill: var(--light-dark);
+}
+/* Message input bar + Message frame*/
+._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou {
+    background-color: var(--light-gray) !important;
 }
 
-._7mki, ._4sp8 polygon {
-    fill: #121214;
-}
-
-._hh7:not(._2f5r):not(._43by),
-._7kpk,
-._53ij,
-._558b ._54ng,
-._7tpc,
-._1ht2 ._6zkb,
-.chatAttachmentShelf,
-._52mr:not(._hh7):not(._1byr) {
-    background-color:#1d1d1f !important;
-}
-._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, .chatAttachmentShelf, ._52mr:not(._hh7):not(._1byr) {
-    background-color: #3a3a3a !important;
-}
-._7301._hh7, ._7301._hh7._hh7._6ybn {
-    background-color: #fff;
-    border: .5px solid rgba(0, 0, 0, .1);
-    color: rgba(255, 255, 255, .4);
-    font-style: italic;
-}
-.chatAttachmentShelf {
-    border-top: none !important;
-}
-._7sli, ._4_j5  {
-    border-left: 1px solid rgba(255, 255, 255, .1);
-}
-._1t2u {
+/* Border */
+._1t2u,._7sli, ._4_j5  {
     border-left: 1px solid rgba(255, 255, 255, .2);
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-    min-width: 0;
 }
 ._1li-, ._1li- {
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
-._33p7 {
-    background-color: rgb(21 21 21 / 95%);
+._33p7, ._6ynl  {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
+	/* Chat font color */
+._58nk,._43by ._4k7e._4ik4._4ik5 {
+    color: #fff !important;
+}
+	/*Main font color*/
 ._6-xo,
 ._17w2,
-._58nk,
 ._58nk a:not([role="button"]),
 ._1ht6,
 ._58al,
@@ -96,23 +81,6 @@
 ._8slc {
     color: #e0e0e2 !important;
 }
-
-._389r {
-    border: none;
-}
-
-._2m5p {
-    border-color: rgba(255, 255, 255, 0.1) !important;
-}
-._7t1o {
-    align-items: flex-end;
-    background-color: #121214;
-    box-sizing: border-box;
-    display: flex;
-    position: absolute;
-    transition: transform .25s;
-    width: 100%;
-}
 ._5jn1, ._3z53 {
     color: rgb(255 255 255 / 0.65);
     font-size: 14px;
@@ -120,7 +88,7 @@
     padding-bottom: 5px;
 }
 ._3mtr._4qcs {
-    background-color: #3a3a3a;
+    background-color: var(--light-gray);
     border-color: var(--divider, white);
     border-radius: 4px;
     box-sizing: border-box;
@@ -128,12 +96,6 @@
     height: 28px;
     padding: 6px;
     width: 100%;
-}
-._33p7, ._6ynl  {
-	border-bottom: 1px solid rgba(255, 255, 255, .1);
-}
-i.img, i._uwa, i._57e_ {
-    filter: invert(0.0);
 }
 
 ._6-xk ._30yy path,
@@ -173,12 +135,10 @@ i.img, i._uwa, i._57e_ {
 ._4eby,
 ._2y8_,
 ._4kf5,
-._aou,
 ._5iwn ._7tpc,
 ._1uwz, 
-._2f5n,
-._58al {
-    background-color: #323234 !important;
+._2f5n, ._44kr._3h3c._5l37{
+    background-color: var(--dark-gray) !important;
 }
 
 ._2f5n {
@@ -227,7 +187,7 @@ time._3oh-,
 ._3058,
 ._374d,
 ._4pcn {
-    color: #a0a0a2 !important;
+    color: var(--lighter-gray) !important;
 }
 
 ._pyf {
@@ -235,17 +195,11 @@ time._3oh-,
 }
 
 ._1p1v {
-    -webkit-text-fill-color: #a0a0a2;
+    -webkit-text-fill-color:var(--lighter-gray);
 }
 
 ._2poz svg > rect {
     fill: #121214;
-}
-
-i.img,
-i._uwa,
-i._57e_ {
-    filter: invert(0.0);
 }
 
 ._3zzf i._57e_ {
@@ -273,18 +227,13 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     border: 2px solid transparent !important;
 }
 
-._4rlt,
-._3h3c {
-    background-color: #4d4d4f !important;
-}
-
 ._3nta {
     background: #0a0a0c !important;
     color: #e0e0e2;
     
 }
 ._2mjl, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b {
-    color: #a0a0a2;
+    color: var(--lighter-gray);
 }
 
 ._1ht3._1ht1._6zk9 {
@@ -320,9 +269,22 @@ body, ._1htf._6zke, ._28he {
 
 ._5pd7 {
     background: #888 !important;
+	}
+	/*Vote ui*/
+	._9fw {
+    background-color: rgb(255 255 255 / 14%);
+    border-radius: 5px;
+    border-style: none;
+    font-size: 12px;
+    padding: 5px;
 }
-
-._43by ._4k7e._4ik4._4ik5 {
-    color: #222 !important;
+	._2m5p {
+    border: 1px solid rgba(255, 255, 255, .3);
+	background-color: rgb(255, 255, 255, 14%);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 18px;
+    position: relative;
+    width: 18px;
 }
 }
