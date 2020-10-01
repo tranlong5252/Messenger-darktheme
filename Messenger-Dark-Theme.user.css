@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.1
+@version      1.1.1.0.1
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -12,7 +12,7 @@
 @-moz-document domain("messenger.com") {
 :root {
         --normal-dark: #000;
-	--light-dark: #121214;
+		--light-dark: #121214;
         --dark-gray: #1d1d1f;
         --light-gray: #3a3a3a;
         --lighter-gray: #a0a0a2;
@@ -27,10 +27,18 @@
     fill: var(--light-dark);
 }
 /* Message input bar + Message frame*/
-._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou, .chatAttachmentShelf {
+._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou{
     background-color: var(--light-gray) !important;
 }
-
+._4_j4 .chatAttachmentShelf {
+    background-color: var(--light-dark);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    font-size: 10px;
+    max-height: 72px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
 /* Border */
 ._1t2u,._7sli, ._4_j5  {
     border-left: 1px solid rgba(255, 255, 255, .2);
