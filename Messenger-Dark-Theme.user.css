@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.3
+@version      1.1.4
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -18,7 +18,7 @@
         --lighter-gray: #a0a0a2;
     }	
 	/* Main Background */
-	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._29hk, ._225c.clearfix, ._4jgp ._4jgu {
+	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu {
 	background-color: var(--normal-dark);
 	}
 /* Incoming message box */
@@ -211,11 +211,15 @@ time._3oh-,
 ._3zzf i._57e_ {
     filter: none;
 }
-
-i._53io {
-    filter: invert(0.8)
+._13iv ._5l37:active, ._13iv ._1k1p, ._13iv ._5l37:hover {
+    background-color: var(--dark-gray);
 }
-
+._53io {
+	filter: invert(0.8);
+}
+	._29hk{
+		background-color: var(--light-dark);
+	}
 i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     filter: brightness(1.5);
 }
@@ -236,7 +240,6 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 ._3nta {
     background: #0a0a0c !important;
     color: #e0e0e2;
-    
 }
 ._2mjl, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b {
     color: var(--lighter-gray);
@@ -303,7 +306,7 @@ body, ._1htf._6zke, ._28he {
 		border-bottom: 1px solid rgba(255, 255, 255, .2);
    		border-top: 1px solid rgba(255, 255, 255, .2);
 		}
-	._5f0v._3rh0.uiScrollableArea.fade.contentAfter {
+	._5f0v._3rh0.uiScrollableArea.fade.contentAfter, ._3rh0 {
 		background-color: var(--light-gray);
 	}
 	._4lh7 {
