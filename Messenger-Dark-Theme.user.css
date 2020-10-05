@@ -18,7 +18,7 @@
         --lighter-gray: #a0a0a2;
     }	
 	/* Main Background */
-	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu {
+	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37 {
 	background-color: var(--normal-dark);
 	}
 /* Incoming message box */
@@ -49,7 +49,7 @@
 	border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 	/* Chat font color */
-._58nk,._43by ._4k7e._4ik4._4ik5 {
+._58nk {
     color: #fff !important;
 }
 	/*Main font color*/
@@ -66,7 +66,6 @@
 ._2y8z,
 ._3szq,
 ._2i-c ._54nf ._54nh,
-._4ik4,
 ._1htf > span,
 ._6ybk span,
 ._19jt,
@@ -88,6 +87,10 @@
 ._8slc,
 ._5rh4 {
     color: #e0e0e2 !important;
+	}
+	/* Replies font */
+	._4ik4 {
+	color: rgba(255, 255, 255, 0.7);
 }
 ._5jn1, ._3z53 {
     color: rgb(255 255 255 / 0.65);
@@ -144,7 +147,7 @@
 ._2y8_,
 ._5iwn ._7tpc,
 ._1uwz, 
-._2f5n, ._44kr._3h3c._5l37, ._4p-s{
+._2f5n, ._4p-s{
     background-color: var(--dark-gray) !important;
 }
 
@@ -211,15 +214,14 @@ time._3oh-,
 ._3zzf i._57e_ {
     filter: none;
 }
-._13iv ._5l37:active, ._13iv ._1k1p, ._13iv ._5l37:hover {
-    background-color: var(--dark-gray);
+	/*Select users highlight*/
+	._13iv:hover ._1k1p,  ._13iv ._1k1p, ._5l37:hover {
+    background-color: var(--light-dark);
 }
 ._53io {
 	filter: invert(0.8);
 }
-	._29hk{
-		background-color: var(--light-dark);
-	}
+
 i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     filter: brightness(1.5);
 }
@@ -253,7 +255,7 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
         border: 3px solid #ccc;
     }
 }
-body, ._1htf._6zke, ._28he {
+ ._1htf._6zke, ._28he {
     color: #fff;
 }
 
@@ -312,4 +314,5 @@ body, ._1htf._6zke, ._28he {
 	._4lh7 {
 		color: #fff;
 	}
+	
 }
