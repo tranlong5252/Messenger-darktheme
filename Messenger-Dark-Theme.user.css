@@ -18,15 +18,11 @@
         --lighter-gray: #a0a0a2;
     }	
 	/* Main Background */
-	._4sp8, ._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._7oal, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37 {
+	 ._4sp8,._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37 {
 	background-color: var(--normal-dark);
-	}
-/* Incoming message box */
- ._4sp8 polygon {
-    fill: var(--light-dark);
 }
 	/* Message input bar + Message frame*/
-._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._1ht2 ._6zkb, ._52mr:not(._hh7):not(._1byr),._aou, ._aou._aov, ._4kf5, ._2azv._2zl5, .__6j._2-x5, ._4qcs._5iwm._5iwn{
+._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._52mr:not(._hh7):not(._1byr),._aou, ._aou._aov, ._4kf5, ._2azv._2zl5, .__6j._2-x5, ._4qcs._5iwm._5iwn, ._4jgt._14-7{
     background-color: var(--light-gray) !important;
 }
 ._4_j4 .chatAttachmentShelf {
@@ -116,10 +112,14 @@
 ._7i2l path,
 ._7i2n path,
 ._7i2o path,
-._3szp path {
+._6ybz path,
+._6ybv path,
+._6y56 path,
+._7hty path,
+._7hu1 path,
+._7hu0 path {
     fill: #e0e0e2;
 }
-
 ._3i_m:not(._7301) ._58nk,
 ._3i_m:not(._7301) ._58nk * {
     border-color: #121214 !important;
@@ -138,7 +138,7 @@
 ._7301 span {
     color: rgb(212 210 210 / 50%) !important;
 }
-._7mki, ._4sp8 polygon {
+._7mki {
     fill: #0000;
 }
 ._6-xk ._30yy:not(._6-xf):not(._94py),
@@ -208,13 +208,13 @@ time._3oh-,
 }
 
 ._2poz svg > rect {
-    fill: #121214;
+    fill: var(--normal-dark);
 }
 
 ._3zzf i._57e_ {
     filter: none;
 }
-	/*Select users highlight*/
+	/*Choose user highlight*/
 	._13iv:hover ._1k1p,  ._13iv ._1k1p, ._5l37:hover {
     background-color: var(--light-dark);
 }
@@ -268,6 +268,10 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 ._359u, ._3s-8 {
     color: #ccc;
 }
+	._aou {
+		box-shadow: 0 0px 10px rgb(0, 0, 0);
+		background: var(--light-gray);
+	}
 ._koh._2pit {
     border-bottom: none;
 }
@@ -284,20 +288,20 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 	/*Vote ui*/
 	._9fw {
     background-color: rgb(255 255 255 / 14%);
-    border-radius: 5px;
-    border-style: none;
-    font-size: 12px;
-    padding: 5px;
 }
 	._2m5p {
     border: 1px solid rgba(255, 255, 255, .3);
 	background-color: rgb(255, 255, 255, 14%);
-    border-radius: 50%;
-    cursor: pointer;
-    height: 18px;
-    position: relative;
-    width: 18px;
 }
+	._3b4h {
+	background-color: var(--light-gray);	
+	}
+	._ric, ._4mnq {
+    border: 2px solid var(--light-gray);
+}
+	._3b4t {
+    border: 1px solid rgba(255, 255, 255, .2);
+	}
 	/* GIF Search box */
 	._5iwm ._58al {
 		background-color: var(--dark-gray);
@@ -311,8 +315,49 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 	._5f0v._3rh0.uiScrollableArea.fade.contentAfter, ._3rh0 {
 		background-color: var(--light-gray);
 	}
-	._4lh7 {
+	._4lh7, ._4lhb {
 		color: #fff;
 	}
-	
+	._30h0{
+		background-color: var(--dark-gray);
+		border-left: 1px solid rgba(255, 255, 255, .1);
+	}
+	._682j {
+		background-color: var(--dark-gray);
+	}
+	._2d09, ._2d0c, ._2d0b, ._1xd7, ._558b ._54nc {
+		color: #fff;
+		border: none;
+	}
+	._682i {
+		color: var(--lighter-gray);
+	}
+	._2d01, ._1xd3 {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	}
+	/* Choose chat box */
+	._1ht1._1ht2 ._6zkc {
+		background-color: rgba(255, 255, 255, .15);
+	}
+	/* Member requests and things */
+	/*Border */ ._7tlc, ._6ybv, ._6y56 ,._6ybz, ._7hu0, ._7hu1, ._7hty  {
+		background-color: var(--dark-gray);
+	}
+	._7tlc path {
+    fill: rgb(255, 255, 255);
+	}
+	/* Picture Tab */
+	._3m31:nth-of-type(3n+1) {
+    border-right: 2px solid #000;
+	}
+	/* Group avatar change */
+	._80co {
+		border-radius: 50%;
+		width: 100px;
+      	height: 100px;
+		padding: 0px 0 0px 0;
+		}
+	._7101 {
+    padding: 0px 0 2px 0;
+	}
 }
