@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.6
+@version      1.1.7
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -21,7 +21,7 @@
 	._4gd0, ._3egs, ._52mr._1byr,._7mki, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37, ._5irm._7mkm {
 	background-color: var(--normal-dark);
 }
-	/* if you want to change the theme for your own picture, here is it*/
+	/* if you want to change the theme picture, here is it*/
 	._4sp8 {
 	 /* background-image: url(https://g2esports.com/wp-content/uploads/g2_2017_july_red.png);
 		background-size: cover; */
@@ -124,7 +124,8 @@
 ._6y56 path,
 ._7hty path,
 ._7hu1 path,
-._7hu0 path, ._7oal path[AttributesStyle] {
+._7hu0 path,
+._m._4q60._80cm  ._7oal path{
     fill: #e0e0e2;
 }
 ._3i_m:not(._7301) ._58nk,
@@ -224,11 +225,11 @@ time._3oh-,
     filter: none;
 }
 	/*Choose highlight*/
-	._13iv ._1k1p, ._13iv._1k1p:hover, ._5l37 .clearfix:hover, ._1lj0._6ybm:hover{
+	._13iv ._1k1p, ._13iv._1k1p:hover, ._5l37 .clearfix:hover, ._1lj0._6ybm:hover, ._2a42:hover{
     background-color: var(--light-dark);
 	
 }
-._53io {
+._1r_9 ._53ik ._53io {
 	filter: invert(0.8);
 }
 i.img.sp_sbxFxdCZjuj.sx_3032b3 {
@@ -367,5 +368,9 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 	}
 	a {
     color: var(--fds-blue-60);
+	}
+	/* Bottom pop-up gradient*/
+	._5r8l .uiScrollableArea.contentAfter:after {
+    background: linear-gradient(transparent, #585858);
 	}
 }
