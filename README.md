@@ -26,7 +26,7 @@
 2. Nhấp vào [đây](https://raw.githubusercontent.com/tranlong5252/Messenger-darktheme/master/Messenger-Dark-Theme.user.css) để cài trực tiếp vào Stylus.
 3. Nhấp vào <kbd>Install style</kbd> và truy cập https://www.messenger.com để tận hưởng 👌😏
 
-#### Thích thì rườm rà, không thích thì rườm ra 
+#### Thích thì rườm rà, không thích thì rườm rà 
 1. Tải [Stylus](https://github.com/openstyles/stylus):
     - Dành cho [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
     - Dành cho [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
