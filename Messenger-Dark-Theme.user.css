@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.5
+@version      1.1.6
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -12,15 +12,21 @@
 @-moz-document domain("messenger.com") {
 :root {
         --normal-dark: #000;
-		--light-dark: #121214;
+	--light-dark: #121214;
         --dark-gray: #1d1d1f;
         --light-gray: #3a3a3a;
         --lighter-gray: #a0a0a2;
     }	
 	/* Main Background */
-	 ._4sp8,._5irm._7mkm, ._4gd0, ._3egs, ._52mr._1byr,._7mki, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37 {
+	._4gd0, ._3egs, ._52mr._1byr,._7mki, ._33p7, ._7t1o, ._225c.clearfix, ._4jgp ._4jgu, ._225b._6ybl, ._5l37, ._5irm._7mkm {
 	background-color: var(--normal-dark);
 }
+	/* if you want to change the theme for your own picture, here is it*/
+	._4sp8 {
+	 /* background-image: url(https://g2esports.com/wp-content/uploads/g2_2017_july_red.png);
+		background-size: cover; */
+		background-color: var(--normal-dark);
+	}
 	/* Message input bar + Message frame*/
 ._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._52mr:not(._hh7):not(._1byr),._aou, ._aou._aov, ._4kf5, ._2azv._2zl5, .__6j._2-x5, ._4qcs._5iwm._5iwn, ._4jgt._14-7{
     background-color: var(--light-gray) !important;
@@ -81,7 +87,8 @@
 .uiInputLabelLabel,
 ._44jz,
 ._8slc,
-._5rh4 {
+._5rh4, 
+._4q61 {
     color: #e0e0e2 !important;
 	}
 	/* Replies font */
@@ -117,7 +124,7 @@
 ._6y56 path,
 ._7hty path,
 ._7hu1 path,
-._7hu0 path {
+._7hu0 path, ._7oal path[AttributesStyle] {
     fill: #e0e0e2;
 }
 ._3i_m:not(._7301) ._58nk,
@@ -194,11 +201,13 @@ time._3oh-,
 ._2wy4,
 ._7492,
 ._3058,
-._374d,
+._374d, 
 ._4pcn {
     color: var(--lighter-gray) !important;
 }
-
+	._4pcn._2uf4 {
+		text-decoration: underline;
+	}
 ._pyf {
     background-color: rgba(255, 255, 255, 0.3) !important;
 }
@@ -214,14 +223,14 @@ time._3oh-,
 ._3zzf i._57e_ {
     filter: none;
 }
-	/*Choose user highlight*/
-	._13iv:hover ._1k1p,  ._13iv ._1k1p, ._5l37:hover {
+	/*Choose highlight*/
+	._13iv ._1k1p, ._13iv._1k1p:hover, ._5l37 .clearfix:hover, ._1lj0._6ybm:hover{
     background-color: var(--light-dark);
+	
 }
 ._53io {
 	filter: invert(0.8);
 }
-
 i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     filter: brightness(1.5);
 }
@@ -234,27 +243,22 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     background: none;
 }
 
-._7q1i,
-._7q0v {
-    border: 2px solid transparent !important;
-}
-
 ._3nta {
     background: #0a0a0c !important;
     color: #e0e0e2;
 }
 ._2mjl, ._4dx5, ._38wl, ._4x7m, ._4x79, ._4x7b {
     color: var(--lighter-gray);
-}
 
-._1ht3._1ht1._6zk9 {
-    background: none;
 }
-@media(max-width: 900px) {
-    ._1ht3._1ht1._6zk9 div[style^="background-image"] {
-        border: 3px solid #ccc;
-    }
+@media (max-width: 900px) {
+	._1ht3._1ht1._6zk9 {
+    background-color: rgba(0, 136, 255, .3);
+	}
 }
+	._7q0v, ._7q1i{
+		border: unset !important;
+	}
  ._1htf._6zke, ._28he {
     color: #fff;
 }
@@ -352,12 +356,16 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 	}
 	/* Group avatar change */
 	._80co {
-		border-radius: 50%;
-		width: 100px;
-      	height: 100px;
-		padding: 0px 0 0px 0;
+		background: rgb(0 0 0 / 29%);
 		}
-	._7101 {
-    padding: 0px 0 2px 0;
+	._80cm {
+		background-color: var(--light-gray)
+	}
+	/* Button border */
+	._3-wv._7i2n:hover, ._2rvp._7i2l:hover, ._5zvq._7i2o:hover {
+		background-color: var(--dark-gray);
+	}
+	a {
+    color: var(--fds-blue-60);
 	}
 }
