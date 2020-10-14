@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      1.1.8
+@version      1.1.9
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -28,7 +28,7 @@
 		background-color: var(--normal-dark);
 	}
 	/* Message input bar + Message frame*/
-._hh7:not(._2f5r):not(._43by), ._7kpk, ._53ij, ._558b ._54ng, ._7tpc, ._52mr:not(._hh7):not(._1byr),._aou, ._aou._aov, ._4kf5, ._2azv._2zl5, .__6j._2-x5, ._4qcs._5iwm._5iwn, ._4jgt._14-7{
+._hh7:not(._2f5r):not(._43by), ._7kpk, ._558b ._54ng, ._7tpc, ._52mr:not(._hh7):not(._1byr),._aou, ._aou._aov, ._4kf5, ._2azv._2zl5, .__6j._2-x5, ._5iwm ._58al{
     background-color: var(--light-gray) !important;
 }
 ._4_j4 .chatAttachmentShelf {
@@ -225,12 +225,12 @@ time._3oh-,
     filter: none;
 }
 	/*Choose highlight*/
-	._13iv ._1k1p, ._13iv._1k1p:hover, ._5l37 .clearfix:hover, ._1lj0._6ybm:hover, ._2a42:hover{
+	._13iv ._1k1p, ._13iv._1k1p:hover, ._5l37:hover, ._1lj0._6ybm:hover, ._2a42:hover, ._5l37:active, ._1k1p{
     background-color: var(--light-dark);
 	
 }
-._1r_9 ._53ik ._53io {
-	filter: invert(0.75);
+._1r_9 ._53ik ._53io  {
+	filter: invert(0.88);
 }
 ._hw2 ._53ik ._53io {
     filter: invert(0.25);
@@ -238,7 +238,9 @@ time._3oh-,
 i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     filter: brightness(1.5);
 }
-
+._53ik ._558b+._53io, ._53il ._558b+._53io {
+ filter: invert(0.75);
+	}
 ._kmc {
     cursor: text;
 }
@@ -309,10 +311,6 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
 }
 	._3b4t {
     border: 1px solid rgba(255, 255, 255, .2);
-	}
-	/* GIF Search box */
-	._5iwm ._58al {
-		background-color: var(--dark-gray);
 	}
 	/* Game pop-up*/
 	._4lh2 {
@@ -397,7 +395,7 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     color: var(--fds-blue-60);
 	}
 	/* Bottom pop-up gradient*/
-	._5r8l .uiScrollableArea.contentAfter:after {
+	._5r8l .uiScrollableArea.contentAfter:after, ._3mts .uiScrollableArea.contentAfter:after {
     background: linear-gradient(transparent, #585858);
 	}
 	 ._tih._310t._3xn3._3xn5 div[style^="background-image"]{
@@ -417,4 +415,30 @@ i.img.sp_sbxFxdCZjuj.sx_3032b3 {
     max-width: 50%;
     position: relative;
 }
+	/* Search Input */
+	._58al {
+	background-color: transparent !important;
+	}
+	/* Search GIF */
+	._53ij, ._4qcs._5iwm._5iwn {
+		background-color: var(--light-dark);
+	}
+	/*C U S T O M E D DEFAULT SCROLLBAR SHI-*/
+::-webkit-scrollbar-track, ::-webkit-scrollbar, ::-webkit-scrollbar-corner
+{
+	background-color: transparent;
+	}
+::-webkit-scrollbar {
+	width: 10px;
+	}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #8b8b8b;
+	background-clip: content-box;
+	border: 2px solid transparent;
+	}
+::-webkit-scrollbar-thumb:hover
+{	
+	background-color: #a2a2a2;
+	}
 }
