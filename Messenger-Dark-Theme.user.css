@@ -417,7 +417,7 @@
 	}
 	
 	::-webkit-scrollbar-track, ::-webkit-scrollbar, ::-webkit-scrollbar-corner{
-		background-color: transparent;
+		background-color: #000;
 	}
 	::-webkit-scrollbar {
 		width: 10px;
