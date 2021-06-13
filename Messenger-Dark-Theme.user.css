@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      2.0.0
+@version      2.0.1
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -262,7 +262,6 @@
     --fds-white-text: #FFFFFF;
     --fds-www-wash: #EBEDF0;
     --fds-yellow-20: #FFBA00;
-    --header-height: 56px;
     --fds-animation-enter-exit-in: cubic-bezier(0.14, 1, 0.34, 1);
     --fds-animation-enter-exit-out: cubic-bezier(0.45, 0.1, 0.2, 1);
     --fds-animation-swap-shuffle-in: cubic-bezier(0.14, 1, 0.34, 1);
@@ -391,10 +390,10 @@
     --secondary-text: #B0B3B8;
     --secondary-text-on-media: rgba(255, 255, 255, 0.9);
     --section-header-text: #BCC0C4;
-    --shadow-1: rgba(0, 0, 0, 0.1);
-    --shadow-2: rgba(0, 0, 0, 0.2);
-    --shadow-5: rgba(0, 0, 0, 0.5);
-    --shadow-8: rgba(0, 0, 0, 0.8);
+    --shadow-1: rgba(255, 255, 255, .1);
+    --shadow-2: rgba(255, 255, 255, .2);
+    --shadow-5: rgba(0, 0, 0, .5);
+    --shadow-8: rgba(0, 0, 0, .8);
     --shadow-inset: rgba(255, 255, 255, 0.05);
     --surface-background: #242526;
     --text-highlight: rgba(24, 119, 242, 0.45);
@@ -405,12 +404,20 @@
     --wash: #3E4042;
     --web-wash: #18191A;
 	}
-	.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4 path{
+	.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4{
+		fill: white !important;
+	}
+	.dlv3wnog.lupvgy83 svg{
 		fill: white;
 	}
-	.a8c37x1j svg{
-		fill:#fff;
+	.qdjxsfl2 {
+    --T68779821: 0 12px 28px 0 var(--shadow-2),0 2px 4px 0 var(--shadow-1),inset 0 0 0 1px var(--shadow-inset);
 	}
+	.pzggbiyp.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.sp_QDDOIjSO-Jb.sx_5e3067 {
+		background-color: #fff;
+	}
+	
+	
 	input, select, textarea {
     	background-color: #242526;
  	    color: #d1d1d1;
