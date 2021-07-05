@@ -2,7 +2,7 @@
 @name         Messenger-darktheme
 @description  Facebook Messenger theme (Almost like mobile version)
 @namespace    https://github.com/tranlong5252
-@version      2.0.1
+@version      2.0.2
 @license      MIT
 @author       tranlong5252
 @homepageURL  https://github.com/tranlong5252/Messenger-darktheme/
@@ -404,7 +404,7 @@
     --wash: #3E4042;
     --web-wash: #18191A;
 	}
-	.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4{
+	.a8c37x1j.ms05siws.hwsy1cff.b7h9ocf4 path{
 		fill: white !important;
 	}
 	.dlv3wnog.lupvgy83 svg{
@@ -415,6 +415,9 @@
 	}
 	.pzggbiyp.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.sp_QDDOIjSO-Jb.sx_5e3067 {
 		background-color: #fff;
+	}	 
+	.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.pfnyh3mw.taijpn5t.bp9cbjyn.owycx6da.btwxx1t3.kt9q3ron {
+		background-color: #262626bf;
 	}
 	
 	
