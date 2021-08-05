@@ -414,12 +414,23 @@
     --T68779821: 0 12px 28px 0 var(--shadow-2),0 2px 4px 0 var(--shadow-1),inset 0 0 0 1px var(--shadow-inset);
 	}
 	.pzggbiyp.s45kfl79.emlxlaya.bkmhp75w.spb7xbtv.sp_QDDOIjSO-Jb.sx_5e3067 {
-		background-color: #fff;
+		background-color: #fe0505;
 	}	 
+	.arfg74bv.qs9ysxi8.k77z8yql.i09qtzwb.n7fi1qx3.pedkr2u6.hzruof5a.pmk7jnqg .j9ispegn.kr520xx4.akwz6i9j.art1omkt.ot9fgl3s.rnr61an3.rnr61an3 {
+    background-color: transparent;
+}
+
 	.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.pfnyh3mw.taijpn5t.bp9cbjyn.owycx6da.btwxx1t3.kt9q3ron {
 		background-color: #262626bf;
 	}
-	
+	 .buofh1pr.rj1gh0hx.nred35xi {
+		background-color: transparent;
+	}
+	.h9e7qa53.rj1gh0hx.buofh1pr.nred35xi , .jn8vp64t.rj1gh0hx.buofh1pr.nred35xi, 
+.j83agx80.bp9cbjyn.taijpn5t.rgmg9uty.rj1gh0hx.buofh1pr.pfnyh3mw.pybr56ya.f10w8fjw.nred35xi{
+		    background-color: var(--messenger-card-background);
+
+	}
 	
 	input, select, textarea {
     	background-color: #242526;
@@ -427,7 +438,7 @@
 	}
 	
 	::-webkit-scrollbar-track, ::-webkit-scrollbar, ::-webkit-scrollbar-corner{
-		background-color: #000;
+    	background-color: var(--messenger-card-background);
 	}
 	::-webkit-scrollbar {
 		width: 10px;
@@ -442,4 +453,5 @@
 	::-webkit-scrollbar-thumb:hover {	
 		background-color: #a2a2a2;
 	}
+	
 }
